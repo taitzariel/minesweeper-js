@@ -1,0 +1,78 @@
+/*make this part of js, because it is dependent on painter implementation
+*/
+div.counter, div.stopclock, table {
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /*background-color: rgb(240,240,240);*/
+}
+div.counter, div.stopclock {
+    /*width: 50px;*/
+    text-align: center;
+    /*border: 1px solid black;*/
+    padding: 2px;
+    /*font-family: Courier New;*/
+    font-family: Arial;
+}
+table, td {
+    line-height:0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+}
+.flagged::before {
+    content: '|';
+    color: black;
+}
+/*.flagged::after {
+    content: '>';
+    color: red;
+}*/
+.flagged {
+    font-style: italic;
+    color: red;
+}
+/*disable right click on disabled buttons with an invisible element
+note that if button margin is negative, span will not cover the entire border of the button, and right-click will bring up the context menu.*/
+td {
+    position: relative; /* so that absolute will be relative to this*/
+}
+span.disabledCover { /* to cover the entire td*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: green;
+    opacity: 0.00; /* to be invisible */
+}
+button+span.disabledCover {
+    display: none; /* so that button can be clicked on */
+}
+button[disabled]+span.disabledCover {
+    display: inline; /* will stack above button, because span is positioned,
+                          whereas button is not (button is static positioned),
+                          similarly could make button relative, and use
+                          z-index */
+}
+/*
+button::-moz-focus-inner {
+    height: 8px;
+    width: 8px;
+    margin: 0px;
+padding:0;
+border:0;
+}
+*/
+/* There was a problem - couldn't get rid of space above button border, below td border. Googled it, eventually sort of solved by:
+button margin negative
+table, td {
+line-height: 0;
+border-collapse: collapse;
+*/
+button {
+    height: 24px;
+    width: 24px;
+    /*margin: 0px;*/
+}

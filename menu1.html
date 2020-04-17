@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+p {
+    color: green;
+}
+body {
+    color: red;
+}
+ul {
+    border: 1px solid blue;
+    padding: 0;
+}
+li {
+    padding: 7px;
+    display: inline;
+    list-style: none;
+    background-color: #aaaaaa;
+    border: 1px solid red;
+}
+a {
+    text-decoration: none;
+}
+</style>
+<body>
+<ul>
+<li><a href="#">
+html
+</a></li>
+<li><a href="#">
+css
+</a></li>
+<li><a href="#">
+javascript
+</a></li>
+<li><a href="#">
+home
+</a></li>
+</ul>
+<div style="color:turquoise; border:2px solid red">
+<p>
+In css, which determines style - a more specific selector, or style defintion closer to the element?
+<br/>
+It seems that a more specific selector takes precedence.
+<br/>
+This paragraph is contained in a div with an inline color of turquoise.
+<br/>
+However, if the style of p is defined, even at the top of the document (not inline), it takes precedence - the color of this writing is green.
+<br/>
+Similarly, if you wish to remove text-decoration from "a" within "li", then it doesn't help to define text-decoration in "li", as somewhere higher up in the css sheets pile (perhaps default browser settings), "a" specifically is defined to be underlined.
+</p>
+</div>
+</body>
+</html>

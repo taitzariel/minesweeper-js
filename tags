@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Counter	minesweeper.js	/^function Counter(initialCount) {$/;"	c
+GameStage	util.js	/^function GameStage() {$/;"	c
+Grid	minesweeper.js	/^function Grid(width, height, numMines) {$/;"	c
+GridCell	minesweeper.js	/^function GridCell(rowIndex, colIndex) {$/;"	c
+GridPainter	minesweeper.js	/^function GridPainter(domNode, width, height, numMines) {$/;"	c
+LinkedList	util.js	/^function LinkedList() {$/;"	c
+LinkedListNode	util.js	/^function LinkedListNode(element) {$/;"	c
+MathUtils	util.js	/^function MathUtils() {$/;"	c
+MineSweeper	minesweeper.js	/^function MineSweeper(internalLayout, painter, numMines) {$/;"	f
+Queue	util.js	/^function Queue() {$/;"	c
+StopClock	minesweeper.js	/^function StopClock() {$/;"	c
+appendToTail	util.js	/^    this.appendToTail = function(element) {$/;"	m	class:LinkedList
+bfs	minesweeper.js	/^    function bfs(node) {$/;"	f	function:MineSweeper
+checkName	welcome.js	/^function checkName() {$/;"	f
+choose	util.js	/^    this.choose = function(n, k) {$/;"	m	class:MathUtils
+chooseRandom	util.js	/^    this.chooseRandom = function(n, k) {$/;"	m	class:MathUtils
+clearFlag	minesweeper.js	/^    function clearFlag(button) {$/;"	f	function:GridPainter
+congratulate	minesweeper.js	/^    function congratulate() {$/;"	f	function:MineSweeper
+congratulate	minesweeper.js	/^    this.congratulate = function(timeTaken) {$/;"	m	class:GridPainter
+decrement	minesweeper.js	/^    this.decrement = function() {$/;"	m	class:Counter
+deque	util.js	/^    this.deque = function() {$/;"	m	class:Queue
+disableContextMenu	minesweeper.js	/^    var disableContextMenu = function(e) {$/;"	m	class:GridPainter
+drawField	minesweeper.js	/^    this.drawField = function() {};$/;"	m	class:GridPainter
+enque	util.js	/^    this.enque = function(element) {$/;"	m	class:Queue
+expose	minesweeper.js	/^    this.expose = function(node) {$/;"	m	class:Grid
+exposeNode	minesweeper.js	/^    function exposeNode(node) {$/;"	f	function:MineSweeper
+factorial	util.js	/^    this.factorial = function(k) {$/;"	m	class:MathUtils
+flagged	minesweeper.js	/^    function flagged(button) {$/;"	f	function:GridPainter
+gameOver	minesweeper.js	/^    function gameOver(node) {$/;"	f	function:MineSweeper
+gameOver	minesweeper.js	/^    this.gameOver = function(node) {$/;"	m	class:GridPainter
+getElement	minesweeper.js	/^    this.getElement = function() {$/;"	m	class:Counter
+getElement	minesweeper.js	/^    this.getElement = function() {$/;"	m	class:StopClock
+getMathUtils	minesweeper.js	/^    function getMathUtils() {$/;"	f	function:Grid
+getName	welcome.js	/^function getName() {$/;"	f
+getNeighbours	minesweeper.js	/^    this.getNeighbours = function(node) {$/;"	m	class:Grid
+hasMine	minesweeper.js	/^    this.hasMine = function(node) {$/;"	m	class:Grid
+increment	minesweeper.js	/^    this.increment = function() {$/;"	m	class:Counter
+isEmpty	util.js	/^    this.isEmpty = function() {$/;"	m	class:LinkedList
+isEmpty	util.js	/^    this.isEmpty = function() {$/;"	m	class:Queue
+layMines	minesweeper.js	/^    this.layMines = function(safeNode) {$/;"	m	class:Grid
+layMinesTest	minesweeper.js	/^    this.layMinesTest = function(numMines) { \/\/todo; implement random selection$/;"	m	class:Grid
+main	minesweeper.js	/^function main() {$/;"	f
+multiplyDown	util.js	/^    var multiplyDown = function(n, k) {$/;"	m	class:MathUtils
+removeHead	util.js	/^    this.removeHead = function() {$/;"	m	class:LinkedList
+sendGridCell	minesweeper.js	/^        function sendGridCell(e) {$/;"	f	function:setExposeNodeCallback
+sendGridCells	minesweeper.js	/^        function sendGridCells(e) { \/\/ for middle mouse click$/;"	f	function:setExposeNodeCallback
+setComplete	util.js	/^    this.setComplete = function() {$/;"	m	class:GameStage
+setCompletedCallback	minesweeper.js	/^    this.setCompletedCallback = function(callback) {$/;"	m	class:Grid
+setExposeNodeCallback	minesweeper.js	/^    this.setExposeNodeCallback = function(callback) {$/;"	m	class:GridPainter
+setFlag	minesweeper.js	/^    function setFlag(button) {$/;"	f	function:GridPainter
+setInProgress	minesweeper.js	/^    this.setInProgress = function() {$/;"	m	class:GridPainter
+setInProgress	util.js	/^    this.setInProgress = function() {$/;"	m	class:GameStage
+setName	welcome.js	/^function setName() {$/;"	f
+start	minesweeper.js	/^    this.start = function() {$/;"	m	class:StopClock
+stop	minesweeper.js	/^    this.stop = function() {$/;"	m	class:StopClock
+toString	minesweeper.js	/^    this.toString = function() { return colIndex + ' : ' + rowIndex};$/;"	m	class:GridCell
+toString	util.js	/^    this.toString = function() {$/;"	m	class:GameStage
+toTableCell	minesweeper.js	/^    function toTableCell(node) {$/;"	f	function:GridPainter
+toggleFlag	minesweeper.js	/^    function toggleFlag(e) {$/;"	f	function:GridPainter
+toggleFlagActual	minesweeper.js	/^    function toggleFlagActual(button) {$/;"	f	function:GridPainter
+update	minesweeper.js	/^    this.update = function(node, surroundingMines) {$/;"	m	class:GridPainter
+welcome	welcome.js	/^function welcome() {$/;"	f
+welcomeIfKnown	welcome.js	/^function welcomeIfKnown() {$/;"	f
